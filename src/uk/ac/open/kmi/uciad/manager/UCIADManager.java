@@ -27,7 +27,7 @@ public class UCIADManager {
         //Arguments expected serverName(e.g. web06) 12-May-2011 13-May-2011 14-May-2011
         //String args [] ={"web06"};        
         try {
-            String test = "";
+            
             if (args.length > 1) {
                 assignProperties(args[0]);
                 if (args.length == 4 && args[2].equals("--")) {
